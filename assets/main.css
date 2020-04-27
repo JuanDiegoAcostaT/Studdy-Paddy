@@ -39,3 +39,43 @@ main {
 .firsttime{
     border: 2px solid #111922;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d252d;
+}
+
+.footer__company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.footer__resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.footer__information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.footer__register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111922;
+}
