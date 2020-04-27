@@ -23,11 +23,19 @@ header {
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     margin: 20px;
 }
 
 .form__welcome {
+    border: 2px solid #111922;
+}
+
+.form{
+    border: 2px solid #111922;
+}
+
+.firsttime{
     border: 2px solid #111922;
 }
