@@ -16,52 +16,99 @@
             <div class="header__logo">
                 <img src="./images/Paddy_logo_homepgaegreen.png" alt="Studdy Paddy">
             </div>
+            <div class="header__nav">
+                <nav>
+                  <ul>
+                    <li>
+                      <a href="/" class="current">
+                        HOME
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                       PAGES
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        ELEMENTS
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        COURSES
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        RESEARCH
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        NEWS
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        CONTACT
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             <div class="header__search">
-                <input type="text" name="search" id="search-1" placeholder="Search Courses">
+                <input class="search" type="text" name="search" id="search-1" placeholder="Search Courses"><span class="icon-search"></span>
             </div>
         </header>
     </div>
-    <main>
-        <div class="form__welcome">
-            <h2>Welcome Back!</h2>
-        </div>
-        <div class="form">
-            <div class="form__inputs">
-                <form action="">
-                    <input type="text" placeholder="username">
-                    <input type="text" placeholder="password">
-                    <input type="checkbox" name="" id=""><p>Remember username</p>
-                    <button>Log in</button>
-                </form>
+    <div class="main__container">
+        <main>
+            <div class="form__welcome">
+                <h2>Welcome Back!</h2>
             </div>
-            <div class="form__questions">
-                <p>Forgotten your usename or password?</p>
-                <p>Coockies must be enabled in your browser<span class="icon-question"></span></p>
+            <div class="form">
+                <div class="form__container">
+                    <div class="form__inputs">
+                        <form action="">
+                            <input type="text" placeholder="username">
+                            <input type="text" placeholder="password">
+                            <label><input type="checkbox" />Remember Username</label>
+                            <button class="btn__orange">Log in</button>
+                        </form>
+                    </div>
+                    <div class="form__questions">
+                        <a href="">Forgotten your usename or password?</a>
+                        <p>Coockies must be enabled in your browser <span class="icon-question"></span></p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="firsttime">
-            <h1>Is this your first time here?</h1>
-            <p>For full acces to this site, create account</p>
-            <button>Create new account</button>
-        </div>
-    </main>
+            <div class="firsttime">
+                <div class="firsttime__container">
+                    <h1>Is this your first time here?</h1>
+                    <p>For full acces to this site, create account</p>
+                    <button class="btn__blue">Create new account</button>
+                </div>
+            </div>
+        </main>
+    </div>
     <footer>
         <div class="footer">
             <div class="footer__company">
                 <h3>Company</h3>
-                <a href="">About Us</a>
-                <a href="">Careers</a>
-                <a href="">Student`s Stories</a>
-                <a href="">Gitf Card</a>
-                <a href="">In The Press</a>
+                <a href=""><span>></span>About Us</a>
+                <a href=""><span>></span>Careers</a>
+                <a href=""><span>></span>Student`s Stories</a>
+                <a href=""><span>></span>Gitf Card</a>
+                <a href=""><span>></span>In The Press</a>
             </div>
             <div class="footer__resources">
                 <h3>Resources</h3>
-                <a href="">Support</a>
-                <a href="">StuddyPaddy Live</a>
-                <a href="">Group Lessons</a>
-                <a href="">Blog</a>
-                <a href="">Private Lessons</a>
+                <a href=""><span>></span>Support</a>
+                <a href=""><span>></span>StuddyPaddy Live</a>
+                <a href=""><span>></span>Group Lessons</a>
+                <a href=""><span>></span>Blog</a>
+                <a href=""><span>></span>Private Lessons</a>
             </div>
             <div class="footer__information">
                 <h3>Information</h3>
@@ -79,9 +126,13 @@
         </div>
         <div class="footer__bottom">
             <p>© Copyrigth StuddyPaddy 2020</p>
-            <a href="">Privacy Policy|Terms Of Use</a>
+            <a href="">Privacy Policy | Terms Of Use</a>
+            <div class="rowUp">
+                <span class="icon-arrow-up2" id="ir-arriba"></span>
+            </div>  
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/f7a51aee19.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="./src/app.js"></script>
 </body>
 </html>
